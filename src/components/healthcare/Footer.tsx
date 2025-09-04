@@ -53,29 +53,29 @@ const Footer = () => {
               <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
                 <Heart className="w-7 h-7 text-white" />
               </div>
-              <div>
-                <div className="font-bold text-xl text-foreground">HealthCare Pro</div>
-                <div className="text-sm text-muted-foreground">Smart Healthcare Management</div>
-              </div>
+            <div>
+              <div className="font-bold text-xl text-foreground">MedCare India</div>
+              <div className="text-sm text-muted-foreground">Digital Healthcare Platform</div>
+            </div>
             </div>
             
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Transforming healthcare management with secure, scalable solutions for patients, 
-              doctors, and administrators. HIPAA-compliant and trusted by healthcare professionals worldwide.
+              Transforming Indian healthcare with digital solutions for patients, doctors, and hospitals. 
+              Integrated with Ayushman Bharat and trusted by healthcare professionals across India.
             </p>
             
             <div className="space-y-3">
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 mr-3 text-primary" />
-                support@healthcarepro.com
+                support@medcareindia.com
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mr-3 text-primary" />
-                1-800-HEALTHCARE
+                1800-MEDCARE (24x7 Helpline)
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mr-3 text-primary" />
-                San Francisco, CA
+                Mumbai, Bangalore, Delhi
               </div>
             </div>
           </div>
@@ -106,11 +106,11 @@ const Footer = () => {
         <div className="flex flex-wrap items-center justify-center gap-6 mb-8">
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <Shield className="w-4 h-4 text-success" />
-            <span>HIPAA Compliant</span>
+            <span>Digital India Certified</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <Lock className="w-4 h-4 text-success" />
-            <span>SOC 2 Type II</span>
+            <span>Government Approved</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <Globe className="w-4 h-4 text-success" />
@@ -123,7 +123,7 @@ const Footer = () => {
           <div className="text-center max-w-2xl mx-auto">
             <h3 className="text-xl font-semibold text-foreground mb-2">Stay Updated</h3>
             <p className="text-muted-foreground mb-6">
-              Get the latest healthcare technology insights and product updates delivered to your inbox.
+              Get latest updates on Digital India healthcare initiatives and platform features.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
               <input 
@@ -141,7 +141,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div>
-            © 2024 HealthCare Pro. All rights reserved. Built with ❤️ for healthcare professionals.
+            © 2024 MedCare India. All rights reserved. Built for Digital India healthcare transformation.
           </div>
           <div className="flex items-center space-x-6">
             <a href="#" className="hover:text-primary transition-colors">Privacy</a>

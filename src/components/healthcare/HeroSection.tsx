@@ -19,25 +19,24 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6 animate-fade-in">
               <Heart className="w-4 h-4 mr-2" />
-              Trusted Healthcare Management
+              Trusted by Indian Healthcare
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-slide-up">
-              Smart Healthcare &{" "}
+              Digital Healthcare for{" "}
               <span className="bg-gradient-to-r from-secondary to-secondary-soft bg-clip-text text-transparent">
-                Insurance
-              </span>{" "}
-              Support System
+                New India
+              </span>
             </h1>
             
             <p className="text-xl text-white/90 mb-8 max-w-2xl animate-fade-in">
-              Seamlessly manage hospital visits, doctor consultations, prescriptions, and insurance claims. 
-              One platform for patients, doctors, and administrators.
+              Seamlessly manage hospital visits, doctor consultations, prescriptions, and medical insurance. 
+              Built for Indian healthcare ecosystem with Ayushman Bharat integration.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-slide-up">
               <Button variant="hero" size="lg" className="group">
-                Get Started Today
+                Start Digital Journey
                 <Heart className="w-5 h-5 group-hover:text-secondary transition-colors" />
               </Button>
               <Button 
@@ -45,7 +44,7 @@ const HeroSection = () => {
                 size="lg" 
                 className="bg-white/10 border-white/20 text-white hover:bg-white/20 backdrop-blur-sm"
               >
-                Watch Demo
+                View Demo
               </Button>
             </div>
             
@@ -84,8 +83,8 @@ const HeroSection = () => {
                   <Shield className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold text-sm">Insurance Verified</div>
-                  <div className="text-xs text-muted-foreground">Claim Approved</div>
+                  <div className="font-semibold text-sm">Ayushman Verified</div>
+                  <div className="text-xs text-muted-foreground">Coverage Active</div>
                 </div>
               </div>
             </Card>

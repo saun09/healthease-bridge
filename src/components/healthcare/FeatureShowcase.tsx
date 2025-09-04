@@ -20,29 +20,29 @@ const FeatureShowcase = () => {
     {
       icon: Calendar,
       title: "Smart Appointment Management",
-      description: "AI-powered scheduling with automatic reminders and conflict resolution",
-      benefits: ["Reduce wait times by 60%", "Smart conflict detection", "Multi-channel reminders"],
+      description: "AI-powered scheduling with WhatsApp reminders and multi-language support",
+      benefits: ["Reduce wait times by 60%", "WhatsApp & SMS alerts", "Hindi, English, Regional languages"],
       status: "live"
     },
     {
       icon: FileText,
       title: "Digital Prescription System",
-      description: "Electronic prescriptions with drug interaction checks and pharmacy integration",
-      benefits: ["Eliminate prescription errors", "Real-time drug interactions", "Pharmacy direct delivery"],
+      description: "Electronic prescriptions with drug interaction checks and local pharmacy network",
+      benefits: ["Eliminate prescription errors", "Drug interaction alerts", "Local pharmacy integration"],
       status: "live"
     },
     {
       icon: Shield,
-      title: "Insurance Claim Automation",
-      description: "Automated claim processing with real-time verification and approval tracking",
-      benefits: ["95% faster approvals", "Automatic eligibility check", "Real-time claim status"],
+      title: "Ayushman Bharat Integration",
+      description: "Seamless integration with government health schemes and cashless treatment",
+      benefits: ["Instant eligibility check", "Cashless treatment", "Direct scheme settlement"],
       status: "live"
     },
     {
       icon: Lock,
-      title: "HIPAA-Compliant Security",
-      description: "Enterprise-grade security with end-to-end encryption and audit trails",
-      benefits: ["AES-256 encryption", "Complete audit logging", "Role-based access control"],
+      title: "Data Protection & Privacy",
+      description: "Government-compliant security with biometric authentication and OTP verification",
+      benefits: ["Aadhaar integration", "OTP verification", "Government data standards"],
       status: "live"
     },
     {
@@ -55,19 +55,19 @@ const FeatureShowcase = () => {
     {
       icon: Globe,
       title: "Multi-Hospital Network",
-      description: "Scalable architecture supporting single hospitals to large healthcare networks",
-      benefits: ["Unlimited scalability", "Network partnerships", "Federated data access"],
+      description: "Scalable architecture supporting rural clinics to metro hospital chains across India",
+      benefits: ["Pan-India connectivity", "Rural-urban bridge", "Telemedicine support"],
       status: "coming-soon"
     }
   ];
 
   const securityFeatures = [
-    "End-to-end AES-256 encryption",
-    "Multi-factor authentication",
-    "Real-time threat monitoring",
-    "HIPAA compliance certification",
-    "Automated backup & recovery",
-    "Zero-trust architecture"
+    "Aadhaar-based authentication",
+    "OTP & biometric verification", 
+    "Government data compliance",
+    "Digital India standards",
+    "Encrypted health records",
+    "Multi-language support"
   ];
 
   return (
@@ -79,10 +79,10 @@ const FeatureShowcase = () => {
             Core Features
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Comprehensive Healthcare Management
+            Complete Digital Healthcare for India
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Every tool you need to manage healthcare efficiently, securely, and at scale.
+            Every tool you need to manage healthcare efficiently across urban and rural India.
           </p>
         </div>
 
@@ -141,14 +141,14 @@ const FeatureShowcase = () => {
           <div>
             <Badge variant="outline" className="mb-4 border-destructive text-destructive">
               <Lock className="w-3 h-3 mr-1" />
-              Enterprise Security
+              Government Compliance
             </Badge>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Bank-Level Security for Healthcare Data
+              Digital India Healthcare Standards
             </h3>
             <p className="text-lg text-muted-foreground mb-8">
-              Your patients' data is protected by the same security standards used by major financial institutions. 
-              Every interaction is logged, encrypted, and monitored in real-time.
+              Your patients' data is protected by government-approved security standards. 
+              Every interaction follows Digital India guidelines with Aadhaar integration and multi-language support.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4">
@@ -166,20 +166,20 @@ const FeatureShowcase = () => {
               <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center text-white shadow-medical mb-4">
                 <Lock className="w-8 h-8" />
               </div>
-              <CardTitle className="text-xl">Security Compliance</CardTitle>
+              <CardTitle className="text-xl">Compliance Certification</CardTitle>
               <CardDescription>
-                Certified and audited by leading security organizations
+                Certified by Government of India and healthcare regulatory bodies
               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-4 bg-background rounded-lg">
                   <div className="text-2xl font-bold text-primary mb-1">100%</div>
-                  <div className="text-xs text-muted-foreground">HIPAA Compliant</div>
+                  <div className="text-xs text-muted-foreground">Digital India</div>
                 </div>
                 <div className="text-center p-4 bg-background rounded-lg">
-                  <div className="text-2xl font-bold text-primary mb-1">SOC 2</div>
-                  <div className="text-xs text-muted-foreground">Type II Certified</div>
+                  <div className="text-2xl font-bold text-primary mb-1">GOI</div>
+                  <div className="text-xs text-muted-foreground">Certified</div>
                 </div>
                 <div className="text-center p-4 bg-background rounded-lg">
                   <div className="text-2xl font-bold text-primary mb-1">99.9%</div>

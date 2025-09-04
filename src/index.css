@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Healthcare & Insurance Platform Design System */
+/* Indian Healthcare Platform Design System */
 
 @layer base {
   :root {
-    /* Healthcare Brand Colors */
+    /* Indian Healthcare Brand Colors - Saffron, Green, Blue */
     --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
 
@@ -16,29 +16,29 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Medical Blue Primary */
-    --primary: 210 100% 42%;
+    /* India Digital Health Blue */
+    --primary: 210 100% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-soft: 210 70% 50%;
+    --primary-soft: 210 70% 55%;
     --primary-muted: 210 40% 85%;
 
-    /* Healthcare Secondary - Medical Green */
-    --secondary: 142 75% 50%;
+    /* Healthcare Green (inspired by Indian flag) */
+    --secondary: 135 70% 45%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-soft: 142 60% 60%;
-    --secondary-muted: 142 30% 85%;
+    --secondary-soft: 135 60% 55%;
+    --secondary-muted: 135 30% 85%;
 
-    /* Trust & Professional Tones */
+    /* Digital India Professional Tones */
     --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 210 40% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    /* Medical Alert Colors */
+    /* Indian Healthcare Alert Colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --warning: 38 92% 50%;
+    --warning: 35 90% 55%; /* Saffron inspired */
     --warning-foreground: 0 0% 100%;
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
@@ -47,18 +47,19 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 210 100% 42%;
 
-    /* Healthcare Gradients */
+    /* Indian Healthcare Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-soft)));
     --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-soft)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
     --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+    --gradient-tricolor: linear-gradient(135deg, hsl(35 90% 55%) 0%, hsl(0 0% 100%) 50%, hsl(135 70% 45%) 100%);
 
-    /* Medical Shadows */
+    /* Professional Healthcare Shadows */
     --shadow-medical: 0 4px 20px hsl(var(--primary) / 0.1);
     --shadow-card: 0 2px 10px hsl(var(--primary) / 0.08);
     --shadow-elevated: 0 8px 32px hsl(var(--primary) / 0.12);
 
-    /* Professional Transitions */
+    /* Digital India Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 

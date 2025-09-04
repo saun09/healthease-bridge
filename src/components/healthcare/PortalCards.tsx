@@ -19,43 +19,43 @@ const PortalCards = () => {
   const portals = [
     {
       title: "Patient Portal",
-      description: "Manage your health records, appointments, and insurance claims in one secure place",
+      description: "Manage your health records, appointments, and Ayushman Bharat benefits in one secure place",
       icon: User,
       gradient: "bg-gradient-primary",
       features: [
-        "Medical History & Records",
-        "Appointment Scheduling",
-        "Prescription Management",
-        "Insurance Verification",
-        "Bill Tracking & Payment"
+        "Digital Health Records",
+        "Online Appointment Booking",
+        "E-Prescription Access",
+        "Ayushman Bharat Integration",
+        "Bill Payment & GST"
       ],
       stats: { users: "10,000+", satisfaction: "98%" }
     },
     {
       title: "Doctor Dashboard", 
-      description: "Comprehensive tools for patient care, prescriptions, and medical record management",
+      description: "Comprehensive tools for patient care, digital prescriptions, and medical record management",
       icon: Stethoscope,
       gradient: "bg-gradient-secondary",
       features: [
-        "Patient Management",
-        "Digital Prescriptions",
-        "Treatment Notes",
-        "Appointment Calendar",
-        "Referral System"
+        "Patient Management System",
+        "Digital Prescription Pad",
+        "Treatment & Follow-up Notes",
+        "Clinic Appointment Calendar",
+        "Medical Council Integration"
       ],
       stats: { doctors: "500+", efficiency: "+40%" }
     },
     {
       title: "Admin Control Panel",
-      description: "Hospital management, billing oversight, and insurance verification tools",
+      description: "Hospital management, billing with GST compliance, and government scheme integration",
       icon: Settings,
       gradient: "bg-gradient-card",
       features: [
-        "Hospital Management",
-        "Billing Oversight",
-        "Insurance Claims",
-        "Staff Coordination",
-        "Analytics & Reports"
+        "Multi-Hospital Management",
+        "GST Billing & Compliance",
+        "Government Scheme Claims",
+        "Staff & Resource Planning",
+        "Analytics & MIS Reports"
       ],
       stats: { hospitals: "25+", claims: "99.9%" }
     }
@@ -69,11 +69,11 @@ const PortalCards = () => {
             Multi-Role Platform
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Three Portals, One Unified Experience
+            Three Portals, One Digital India Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Designed for patients, healthcare professionals, and administrators. 
-            Each portal is tailored to specific needs while maintaining seamless integration.
+            Designed for patients, healthcare professionals, and administrators across India. 
+            Each portal integrates with government schemes and Indian healthcare standards.
           </p>
         </div>
 
